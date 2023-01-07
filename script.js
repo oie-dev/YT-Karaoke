@@ -180,7 +180,6 @@ function btnSelect_Song(num){
         case 19: song = list[19]; break;
         case 20: song = list[20]; break;
     }
-    displayControls();
     Video.src = "https://www.youtube.com/embed/" + song;
     Video.play();
 }
