@@ -1,3 +1,25 @@
+/*YT watch
+1. 3XwgjFunA3c
+2. 4MRztxyGKpE
+3. srBTyNMp1SE
+4. YgARXxFxT7Y
+5. 96qxxsJrQkQ
+6. acPB4mDoRZY
+7. e043mP9ul1Q
+8. smLHXy5Bph8
+9. 814m-dhwS6s
+10.yBhgO0plkhE
+11.ZqY3eONjX5k
+12.hNmgGtSTqb8
+13.mYQFOhk-J2A
+14.EVREose0mwc
+15.lt5h2bVlgCY
+16.TsCPrboDunw
+17.y-k2tvfwiYw
+18.bJbAK8zacVI
+19.ZLJPFx-NPhg
+20.H1Ae8yNe4r0
+*/
 
 //Song list Array
 var list = [];
@@ -22,6 +44,29 @@ list[18] = "bJbAK8zacVI";
 list[19] = "ZLJPFx-NPhg";
 list[20] = "H1Ae8yNe4r0";
 
+// Button & Video
+var Video = document.getElementById("vid_video");
+var Song1 = document.getElementById("btn_play1");
+var Song2 = document.getElementById("btn_play2");
+var Song3 = document.getElementById("btn_play3");
+var Song4 = document.getElementById("btn_play4");
+var Song5 = document.getElementById("btn_play5");
+var Song6 = document.getElementById("btn_play6");
+var Song7 = document.getElementById("btn_play7");
+var Song8 = document.getElementById("btn_play8");
+var Song9 = document.getElementById("btn_play9");
+var Song10 = document.getElementById("btn_play10");
+var Song11 = document.getElementById("btn_play11");
+var Song12 = document.getElementById("btn_play12");
+var Song13 = document.getElementById("btn_play13");
+var Song14 = document.getElementById("btn_play14");
+var Song15 = document.getElementById("btn_play15");
+var Song16 = document.getElementById("btn_play16");
+var Song17 = document.getElementById("btn_play17");
+var Song18 = document.getElementById("btn_play18");
+var Song19 = document.getElementById("btn_play19");
+var Song20 = document.getElementById("btn_play20");
+
 //Title
 document.getElementById("lbl_title1").innerText = "Wala kang Katulad";
 document.getElementById("lbl_title2").innerText = "I Need You More Today";
@@ -44,7 +89,7 @@ document.getElementById("lbl_title18").innerText = "Having You Near me";
 document.getElementById("lbl_title19").innerText = "Siguro Nga";
 document.getElementById("lbl_title20").innerText = "Dance with my Father";
 
-//Artist
+//Singer
 document.getElementById("lbl_singer1").innerText = "Spongecola";
 document.getElementById("lbl_singer2").innerText = "Caleb Santos";
 document.getElementById("lbl_singer3").innerText = "Ed Sheeran";
@@ -88,30 +133,29 @@ document.getElementById("img_18").src = "https://cdn-s3.allmusic.com/release-cov
 document.getElementById("img_19").src = "https://cdns-images.dzcdn.net/images/cover/0c3d1704afd37656fd074c448af28f82/264x264.jpg";
 document.getElementById("img_20").src = "https://i.scdn.co/image/ab67616d00001e022ff5c4b27f21a58953871c80";
 
-//Buttons
-document.getElementById("btn_play1").onclick = function(){ btnSelect_Song(1); };
-document.getElementById("btn_play2").onclick = function(){ btnSelect_Song(2); };
-document.getElementById("btn_play3").onclick = function(){ btnSelect_Song(3); };
-document.getElementById("btn_play4").onclick = function(){ btnSelect_Song(4); };
-document.getElementById("btn_play5").onclick = function(){ btnSelect_Song(5); };
-document.getElementById("btn_play6").onclick = function(){ btnSelect_Song(6); };
-document.getElementById("btn_play7").onclick = function(){ btnSelect_Song(7); };
-document.getElementById("btn_play8").onclick = function(){ btnSelect_Song(8); };
-document.getElementById("btn_play9").onclick = function(){ btnSelect_Song(9); };
-document.getElementById("btn_play10").onclick = function(){ btnSelect_Song(10); };
-document.getElementById("btn_play11").onclick = function(){ btnSelect_Song(11); };
-document.getElementById("btn_play12").onclick = function(){ btnSelect_Song(12); };
-document.getElementById("btn_play13").onclick = function(){ btnSelect_Song(13); };
-document.getElementById("btn_play14").onclick = function(){ btnSelect_Song(14); };
-document.getElementById("btn_play15").onclick = function(){ btnSelect_Song(15); };
-document.getElementById("btn_play16").onclick = function(){ btnSelect_Song(16); };
-document.getElementById("btn_play17").onclick = function(){ btnSelect_Song(17); };
-document.getElementById("btn_play18").onclick = function(){ btnSelect_Song(18); };
-document.getElementById("btn_play19").onclick = function(){ btnSelect_Song(19); };
-document.getElementById("btn_play20").onclick = function(){ btnSelect_Song(20); };
+//Button Click
+Song1.onclick = function(){ btnSelect_Song(1); };
+Song2.onclick = function(){ btnSelect_Song(2); };
+Song3.onclick = function(){ btnSelect_Song(3); };
+Song4.onclick = function(){ btnSelect_Song(4); };
+Song5.onclick = function(){ btnSelect_Song(5); };
+Song6.onclick = function(){ btnSelect_Song(6); };
+Song7.onclick = function(){ btnSelect_Song(7); };
+Song8.onclick = function(){ btnSelect_Song(8); };
+Song9.onclick = function(){ btnSelect_Song(9); };
+Song10.onclick = function(){ btnSelect_Song(10); };
+Song11.onclick = function(){ btnSelect_Song(11); };
+Song12.onclick = function(){ btnSelect_Song(12); };
+Song13.onclick = function(){ btnSelect_Song(13); };
+Song14.onclick = function(){ btnSelect_Song(14); };
+Song15.onclick = function(){ btnSelect_Song(15); };
+Song16.onclick = function(){ btnSelect_Song(16); };
+Song17.onclick = function(){ btnSelect_Song(17); };
+Song18.onclick = function(){ btnSelect_Song(18); };
+Song19.onclick = function(){ btnSelect_Song(19); };
+Song20.onclick = function(){ btnSelect_Song(20); };
 
 //Selection Method
-var Video = document.getElementById("vid_video");
 function btnSelect_Song(num){
     var song = "";
     switch(num){
