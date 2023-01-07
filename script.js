@@ -1,25 +1,3 @@
-/*YT watch
-1. 3XwgjFunA3c
-2. 4MRztxyGKpE
-3. srBTyNMp1SE
-4. YgARXxFxT7Y
-5. 96qxxsJrQkQ
-6. acPB4mDoRZY
-7. e043mP9ul1Q
-8. smLHXy5Bph8
-9. 814m-dhwS6s
-10.yBhgO0plkhE
-11.ZqY3eONjX5k
-12.hNmgGtSTqb8
-13.mYQFOhk-J2A
-14.EVREose0mwc
-15.lt5h2bVlgCY
-16.TsCPrboDunw
-17.y-k2tvfwiYw
-18.bJbAK8zacVI
-19.ZLJPFx-NPhg
-20.H1Ae8yNe4r0
-*/
 
 //Song list Array
 var list = [];
@@ -181,5 +159,4 @@ function btnSelect_Song(num){
         case 20: song = list[20]; break;
     }
     Video.src = "https://www.youtube.com/embed/" + song;
-    Video.play();
 }
